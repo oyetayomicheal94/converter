@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: url("thh.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: right;
+    text-align: center;
+    margin-right: 13px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font: 600 3.5em sans-serif;
+    color: red;
+    margin-top: 85px;
+    margin-right: 10px;
+    float: right;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+
+.wrapper{
+    background: rgba(122, green, 011, .5);
+    border: #333;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: 3%;
+    float: right;
+
+}
+
+.inputBox{
+    border: 10px solid #888;
+    background-color: rgba(51, 238, 229, 0.549);
+    border-radius: 10px;
+    margin: auto;
+    padding:5px;
+    width: 30vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-transform:capitalize;
+    font: bold;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 0%;
+}
+
+#naira{
+    box-shadow: rgb(3, 182, 18);
+    width: 150px;
+    height: 20px;
+    color: rgb(218, 43, 12);
+    border: solid rgb(155, 152, 184);
+    border-radius: 5px;
+    margin-bottom: 0;
+    margin-bottom: 3%;
+    padding: 3px;
+}
+#dollar{
+    box-shadow: rgb(3, 182, 18);
+    width: 150px;
+    height: 20px;
+    color: rgb(218, 43, 12);
+    border: solid rgb(155, 152, 184);
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding: 3px;
+}
+
+#btn{
+    background-color: rgb(206, 220, 250);
+    /* color: rgba(236, 15, 26, 0.186); */
+    /* width: 70px; */
+    font: 150 bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+#btn2{
+    background-color: rgb(206, 220, 250);
+    /* color: rgba(236, 15, 26, 0.186); */
+    /* width: 70px; */
+    font: 150 bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn3{
+    background-color: rgb(206, 220, 250);
+    /* color: rgba(236, 15, 26, 0.186); */
+    /* width: 70px; */
+    font: 150 bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+#btn:hover{
+    box-shadow: thistle;
+    color: red;
+    transition: 2 ease-in-out;
+    transform: rotateX(-30px);
+}
+
+#btn2:hover{
+    box-shadow: thistle;
+    color: red;
+    transition: 2 ease-in-out;
+    transform: rotateX(-30px);
+}
+#btn3:hover{
+    box-shadow: thistle;
+    color: red;
+    transition: 2 ease-in-out;
+    transform: rotateX(-30px);
+}
